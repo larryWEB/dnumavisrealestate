@@ -1,0 +1,82 @@
+
+
+@media (min-width: 1024px) {
+
+    .logo-card{
+      position:absolute;
+      left:40px;
+      bottom:30px;
+      font-weight:bold;
+    }
+    
+     
+    /*MENU AND NAV BAR*/
+    
+     #menu-bar{
+       display:flex;
+        flex-direction:row; 
+        z-index:99999;
+        position:fixed;
+       height:70px;
+       background-color:transparent;
+         visibility: visible;
+         justify-content:right;
+         top:10px;
+          visibility: visible;
+         left:-50px;
+       }
+       
+       
+
+       .nav-link{
+        top:10px;
+        margin:20px;
+           font-weight:bold;
+           font-size:10px;
+       }
+       
+
+
+       
+       .menu-btns{
+        visibility:hidden;
+       }
+       
+       
+       
+       
+       .nav-link-card{
+        font-weight:600;
+         font-family: 'Raleway', sans-serif;
+        top:20px;
+     
+         display:inline-flex;
+         visibility: visible;
+              margin:5px;
+                      border:none;
+             }
+     
+        .slide{
+                visibility: visible;
+               left:350px;
+          position:absolute;
+              }
+    
+       
+       
+       
+       .nav-link a{
+        text-decoration:none;
+        color:#f1841e;
+       }
+       
+       .nav-link a:hover{
+        text-decoration:none;
+        color:#e19a00;
+       } 
+       
+         
+      
+    /*END OF MENU AND NAV BAR */
+    }
+    
