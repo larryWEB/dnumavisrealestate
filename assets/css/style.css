@@ -476,12 +476,20 @@ width:100%;
 }
 
 .advert-card {
-	padding:10px;
-	padding-top:50px;
+	padding:30px;
+	padding-top:70px;
 }
 
+.advert-card h1, span{
+	color:#dea939;
+	font-weight:bold;
+}
 
-
+.advert-card p{
+	padding-bottom:20px;
+	padding-top:10px;
+	text-align:center;
+}
 	/* PROJECT STYLE RULES */
 
 	.project{
