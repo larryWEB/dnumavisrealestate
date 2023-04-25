@@ -55,7 +55,7 @@ function changeSlide(){
   
   index++;
   
-  setTimeout(changeSlide,5000);
+  setTimeout(changeSlide,15000);
   
 }
 
